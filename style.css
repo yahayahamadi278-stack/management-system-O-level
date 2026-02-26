@@ -1,0 +1,148 @@
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+
+    display: flex;
+    justify-content: center; /* center everything */
+}
+
+/* MAIN WIDTH CONTROL */
+body > * {
+    width: 500px;      /* unaweza badilisha (400px / 600px) */
+    max-width: 90%;
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+}
+
+/* CONTAINERS */
+.form-container, 
+.table-container {
+    background: white;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* INPUTS */
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+/* BUTTON */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* BUTTONS INSIDE TABLE */
+td button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+/* DELETE BUTTON */
+td button:last-child {
+    background: red;
+}
+
+/* HOVER EFFECT */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* PERFORMANCE SECTION */
+#performanceSection {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* HIDE */
+.hidden {
+    display: none;
+}
+/* SEARCH BOX */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* SEARCH SECTION */
+.search-section {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* RESULT BOX */
+#searchResult {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* STUDENT CARD */
+.result-card {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 4px solid #007bff;
+}
+.search-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-buttons button {
+    flex: 1;
+}
+
+/* CLEAR BUTTON STYLE */
+.clear-btn {
+    background: red;
+}
